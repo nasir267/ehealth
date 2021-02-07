@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:auto;
+	padding:0px;
+}
+.header
+{
+	padding-top:5px;
+	height:60px;
+	width:auto;
+	background:#000;
+	margin:auto;
+	color:#F0F;
+	text-align:left;
+}
+.menu
+{
+	height:40px;
+	background:#333;
+	margin:auto;
+}
+.menu ul
+{
+	margin:0px;
+	padding:0px;
+}
+.menu ul li
+{
+	list-style:none;
+	display:inline;
+}
+.menu ul li a
+{
+	height:100%;
+	width:20%;
+	color:#FF0;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+	font-size:20px;
+	color:#0FF;
+	border-top:10px;
+}
+.menu ul li a:hover
+{
+	background:#FC9;
+	color:#F00;
+	
+	text-transform:uppercase;
+}
+	
+.content
+{
+	height:700px;
+	margin:auto;
+}
+.content_left_menu
+{
+	height:700px;
+	width:30%;
+	background:#0FF;
+	float:left;
+	margin:auto;
+}
+.content_main
+{
+	height:700px;
+	width:40%;
+	float:left;
+	background:#3CF;
+	margin:auto;
+}
+.content_right_menu
+{
+	height:700px;
+	width:30%;
+	background:#0FF;
+	float:left;
+	margin:auto;
+}
+.footer
+{
+	height:70px;
+	background:#303;
+	color:#FFF;
+	margin:auto;
+	text-align-last:center;
+}
